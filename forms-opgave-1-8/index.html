@@ -18,9 +18,11 @@
     <main>
       <section id="form-container">
         <!-- opgave 1 -->
+        <h2>Opgave 1</h2>
         <form id="webform-1"></form>
 
         <!-- opgave 2 -->
+        <h2>Opgave 2</h2>
         <form id="webform-2">
           <div class="form-flex-container">
             <div class="form-group">
@@ -36,6 +38,7 @@
         </form>
 
         <!-- opgave 3 -->
+        <h2>Opgave 3</h2>
         <form id="webform-3">
           <div class="form-flex-container">
             <div class="form-group">
@@ -49,6 +52,7 @@
         </form>
 
         <!-- opgave 4 -->
+        <h2>Opgave 4</h2>
         <form id="webform-4">
           <div class="form-group">
             <label for="name">Navn</label>
@@ -63,17 +67,21 @@
         </form>
 
         <!-- opgave 5 -->
+        <h2>Opgave 5</h2>
         <form id="webform-5"></form>
 
         <!-- opgave 6 -->
+        <h2>Opgave 6</h2>
         <form id="webform-6">
           <div class="form-group"></div>
         </form>
 
         <!-- opgave 7 -->
+        <h2>Opgave 7</h2>
         <form id="webform-7"></form>
 
         <!-- opgave 8 -->
+        <h2>Opgave 8</h2>
         <form id="webform-8"></form>
       </section>
     </main>
@@ -81,6 +89,7 @@
   </body>
 </html>
 
+<!-- ******************************************************************************** -->
 <!-- *********************************** OPGAVER ************************************ -->
 <!-- ******************************************************************************** -->
 
@@ -130,7 +139,7 @@
 
 <!-- **********************************  Opgave 6  ********************************** -->
 <!-- ******************************************************************************** -->
-<!--  Du skal nu lave en radiobutton section -->
+<!-- Du skal nu lave en radiobutton section -->
 <!-- læg alle dine radiobuttons i 1 form-group -->
 <!-- Grupper hver radiobutton med tilhørende label i en div  -->
 <!-- Lav en serie radiobuttons og bed brugeren om at træffe et valg ml. 3-4 muligheder -->
@@ -140,6 +149,26 @@
 <!-- style din form med baggrunds- og textfarve samt en accent farve (accent-color) -->
 <!-- observer forskelle i forskellige browsere... -->
 
+<!-- **********************************  Opgave 7  ********************************** -->
+<!-- ******************************************************************************** -->
+<!-- Du skal nu lave en checkbox section - strukturer på samme måde som radiobuttons -->
+<!-- Grupper hver checkbox med tilhørende label i en div  -->
+<!-- Lav en serie checkbokse og bed brugeren om at vælge 1 eller flere  -->
+<!-- fx hvordan opførte Zombien sig? (4-5 mulige svar) -->
+<!-- Brug igen en <p> som overskrift og placer label til højre for checkbokse -->
+<!-- I denne form skal du lægge dine elementer i et fieldset og bruge en legend -->
+<!-- style efter ønske -->
+
+<!-- **********************************  Opgave 8  ********************************** -->
+<!-- ******************************************************************************** -->
+<!-- Du skal nu lave et formelement af typen range -->
+<!-- Brug fieldset og legend som i forrige opgave -->
+<!-- Find på et emne hvor brugeren kan give feedback på en scala (fx ml. 0 og 100() -->
+<!-- tilføj attributter for min og max værdier til din range  -->
+<!-- style din range så den fylder mere i bredden end standardvisningen -->
+<!-- giv din form en accent-color for at ændre farve på din range slider -->
+
+<!-- ******************************************************************************** -->
 <!-- ****************************** LØSNINGSFORSLAG ********************************* -->
 <!-- ******************************************************************************** -->
 
@@ -227,8 +256,8 @@
 <!-- *****************************  Opgave 6 løsning ******************************** -->
 <!-- ******************************************************************************** -->
 <!-- <form id="webform-6">
+  <p>Hvad er du mest bange for?</p>
   <div class="form-group">
-    <p>Hvad er du mest bange for?</p>
     <div>
       <input type="radio" id="scary-zombie" name="scary" value="1" required />
       <label for="scary-zombie">Zombier?</label>
@@ -246,3 +275,37 @@
 
 <!-- *****************************  Opgave 7 løsning ******************************** -->
 <!-- ******************************************************************************** -->
+<!-- <form id="webform-7">
+  <fieldset id="behavior">
+    <legend>Adfærd</legend>
+    <p>Vælg gerne flere fra nedenstående liste</p>
+    <div class="form-group">
+      <div>
+        <input type="checkbox" id="behavior1" name="behavior" value="ukoordineret-gang" />
+        <label for="behavior1">Slæbende/ukoordineret gang</label>
+      </div>
+      <div>
+        <input type="checkbox" id="behavior2" name="behavior" value="lyde-grynt" />
+        <label for="behavior3">Udstødte lyde (som fx grynt eller støn)</label>
+      </div>
+      <div>
+        <input type="checkbox" id="behavior3" name="behavior" value="gik-efter-mennesker" />
+        <label for="behavior5">Gik direkte efter mennesker uden opfordring</label>
+      </div>
+      <div>
+        <input type="checkbox" id="behavior4" name="behavior" value="stirrede-tomt" />
+        <label for="behavior6">Stirrede tomt uden at blinke</label>
+      </div>
+    </div>
+  </fieldset>
+</form> -->
+
+<!-- *****************************  Opgave 8 løsning ******************************** -->
+<!-- ******************************************************************************** -->
+<!-- <form id="webform-8">
+  <fieldset id="boomer-range">
+    <legend>Boomer level</legend>
+    <label for="boomer"> Hvor boomer er din svigerfar på en skala fra 0 - 100? </label>
+    <input type="range" name="boomer" id="boomer" min="0" max="100" value="0" />
+  </fieldset>
+</form> -->

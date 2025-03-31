@@ -70,8 +70,7 @@ form {
 
 /* ************************* Opgave 2 ***********************  */
 /* **********************************************************  */
-
-/* .form-flex-container {
+/* #webform-2 .form-flex-container {
   display: flex;
   gap: 2rem;
 }
@@ -90,8 +89,7 @@ form {
 
 /* ************************* Opgave 3 ***********************  */
 /* **********************************************************  */
-
-/* .form-flex-container {
+/* #webform-3 .form-flex-container {
   display: flex;
   gap: 2rem;
 }
@@ -106,7 +104,7 @@ form {
   padding: 1rem;
   border: 1px solid #6f90eb;
   border-radius: 10px;
-}  */
+} */
 
 /* ************************* Opgave 4 ***********************  */
 /* **********************************************************  */
@@ -119,13 +117,13 @@ form {
   display: block;
   margin: 0.3rem 0;
 }
-textarea {
+#webform-4 textarea {
   width: 50%;
   height: 60px;
-  padding: 0.5rem; 
-  resize: vertical; 
+  padding: 0.5rem;
+  resize: vertical;
 }
-textarea:focus {
+#webform-4 textarea:focus {
   background-color: rgb(255, 236, 239);
 }
 #webform-4 p {
@@ -161,4 +159,39 @@ textarea:focus {
   border-radius: 15px;
   color: yellow;
   accent-color: lime;
+} */
+
+/* ************************* Opgave 7 ***********************  */
+/* **********************************************************  */
+/* #webform-7 {
+  background-color: rgb(229, 229, 229);
+  padding: 2rem;
+  color: #ae0000;
+  accent-color: red;
+}
+#webform-7 fieldset {
+  background-color: #ffd4d4;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+#webform-7 legend {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+} */
+
+/* ************************* Opgave 8 ***********************  */
+/* **********************************************************  */
+/* #webform-8 {
+  accent-color: rgb(219, 56, 56);
+}
+
+#webform-8 #boomer-range {
+  background-color: rgb(174, 235, 255);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem;
 } */
