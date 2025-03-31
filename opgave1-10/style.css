@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+}
+header,
+main,
+footer {
+  margin: 1rem auto;
+}
+
+header,
+footer {
+  background-color: #000;
+  padding: 1rem;
+}
+nav a,
+footer p {
+  color: aliceblue;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 2rem;
+  padding: 1rem;
+}
+section > div {
+  background-color: beige;
+  padding: 1rem;
+}
+
+form {
+  background-color: #fff;
+  max-width: 100%;
+  border: 1px solid #000;
+  color: #000;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* ********************* LØSNINGSFORSLAG ********************* */
+
+/* ************************* Opgave 3 ***********************  */
+/* **********************************************************  */
+#form-3 input,
+#form-3 label,
+#form-3 button {
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+#form-3 {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* ************************* Opgave 4 ***********************  */
+/* **********************************************************  */
+#form-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ************************* Opgave 5 ***********************  */
+/* **********************************************************  */
+#form-5 {
+  display: flex;
+  gap: 1rem;
+}
+
+/* ************************* Opgave 6 ***********************  */
+/* **********************************************************  */
+#form-6 div {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Side 1</a>
+        <a href="#">Side 2</a>
+        <a href="#">Side 3</a>
+      </nav>
+    </header>
+    <main>
+      <section id="left">
+        <h2>Opgaver</h2>
+        <h2>Forms</h2>
+        <!-- ********************  Opgave 1 ******************** -->
+        <!-- Indsæt 2 inputfelter til fornavn og efternavn samt en submitknap i formen til højre. 
+      inputfelterne skal have en label og der skal være tekst på submitknappen.
+       -->
+        <div>
+          <h3>opgave 1</h3>
+          <p>Indsæt 2 inputfelter til fornavn og efternavn samt en submitknap i formen til højre. inputfelterne skal have en label og der skal være tekst på submitknappen.</p>
+          <img src="img/opg1.png" alt="" />
+        </div>
+
+        <div>
+          <h3>opgave 1</h3>
+          <form id="form-1">
+            <label for="f-name">Fornavn</label>
+            <input id="f-name" type="text" />
+            <label for="l-name">Efternavn</label>
+            <input id="l-name" type="text" />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <!-- ********************  Opgave 2 ******************** -->
+        <!-- Strukturer formen så inputfelt og tilhørende label ligger i en div med class="form-group"-->
+        <div>
+          <h3>opgave 2</h3>
+          <p>Strukturer formen så inputfelt og tilhørende label ligger i en div med class="form-group"</p>
+          <img src="img/opg2.png" alt="" />
+        </div>
+
+        <div>
+          <h3>opgave 2</h3>
+          <form id="form-2">
+            <div class="form-group">
+              <label for="f-name">Fornavn</label>
+              <input id="f-name" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="l-name">Efternavn</label>
+              <input id="l-name" type="text" />
+            </div>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <!-- ********************  Opgave 3 ******************** -->
+        <!-- Du skal løse opgaven i css. Indsæt css som får label og input til at ligge over hinanden. Giv også formen runde hjørner.  -->
+        <div>
+          <h3>opgave 3</h3>
+          <p>Du skal løse opgaven i css. Indsæt css som får label og input til at ligge over hinanden. Giv også formen runde hjørner.</p>
+          <img src="img/opg3.png" alt="" />
+        </div>
+
+        <div>
+          <h3>opgave 3</h3>
+          <form id="form-3">
+            <div class="form-group">
+              <label for="f-name">Fornavn</label>
+              <input id="f-name" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="l-name">Efternavn</label>
+              <input id="l-name" type="text" />
+            </div>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <!-- ********************  Opgave 4 ******************** -->
+        <!-- indsæt følgende inputfelter i formen: password og  email. Sørg for at angive den rigtige type input og sørg for at alle inputfelter har både navn, id og placeholder. Pak hvert inputfelt ind i en div.form-group sammen med den tilhørende label.
+            -->
+        <div>
+          <h3>opgave 4</h3>
+          <p>
+            indsæt følgende inputfelter i formen: password, email, og telefonummer (både landekode og telefonnummer). Sørg for at angive den rigtige type input. Hvert inputfelt skal ligge sammen med den tilhørende label i en div.form-group. skriv
+            også noget css som får de to form-groups til at ligge side om side (brug fx flex)
+          </p>
+          <img src="img/opg4.png" alt="" />
+        </div>
+
+        <div>
+          <h3>opgave 4</h3>
+          <form id="form-4">
+            <div class="form-group">
+              <label for="pass">password</label>
+              <input id="pass" name="pass" type="password" />
+            </div>
+            <div class="form-group">
+              <label for="e-mail">email</label>
+              <input id="e-mail" name="e-mail" type="email" />
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <!-- ********************  Opgave 5 ******************** -->
+        <!-- I denne opgave skal du indsætte telefonnummer. Du skal indsætte landekode med select/option (dvs. en drop-down menu) derefter skal du indsætte et almindeligt inputfelt af typen tel (telefon). Strukturer formen som i de forrige opgaver. -->
+        <div>
+          <h3>opgave 5</h3>
+          <p>
+            I denne opgave skal du indsætte telefonnummer. Du skal indsætte landekode med select/option (dvs. en drop-down menu) derefter skal du indsætte et almindeligt inputfelt af typen tel (telefon). Strukturer formen som i de forrige opgaver.
+          </p>
+          <img src="img/opg5.png" alt="" />
+        </div>
+
+        <div>
+          <h3>opgave 5</h3>
+          <form id="form-5">
+            <div class="form-group">
+              <label for="area-code" class="blok">Landekode</label>
+              <select id="area-code" name="area-code" required>
+                <option value="+45" selected>+45 (Danmark)</option>
+                <option value="+46">+46 (Sverige)</option>
+                <option value="+47">+47 (Norge)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="telefon">telefonnummer</label>
+              <input type="tel" id="telefon" name="telefon" minlength="8" maxlength="8" />
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <!-- ********************  Opgave 6 ******************** -->
+        <!--  I denne opgave skal du indsætte 3 radiobuttons (vælge et ud af 3 kæledyr). Label skal ligge til højre for radiobutton. Du skal også lave en vejledende tekst ovenover dine radiobuttons (fx en paragraf). Du kan evt. style så det ser lidt pænt ud...-->
+        <div>
+          <h3>opgave 6</h3>
+          <p>
+            I denne opgave skal du indsætte 3 radiobuttons (vælge et ud af 3 kæledyr). Label skal ligge til højre for radiobutton. Du skal også lave en vejledende tekst ovenover dine radiobuttons (fx en paragraf). Du kan evt. style med lidt margin
+          </p>
+          <img src="img/opg6.png" alt="" />
+        </div>
+
+        <div>
+          <h3>opgave 6</h3>
+          <form id="form-6">
+            <p>Vælg dit yndlingskæledyr</p>
+            <div class="form-group">
+              <input id="animal-1" name="animal" type="radio" />
+              <label for="animal-1">Hund</label>
+            </div>
+            <div class="form-group">
+              <input id="animal-2" name="animal" type="radio" />
+              <label for="animal-1">Kat</label>
+            </div>
+            <div class="form-group">
+              <input id="animal-3" name="animal" type="radio" />
+              <label for="animal-1">Vandrende pind</label>
+            </div>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer><p>Øvelse 1-10</p></footer>
+  </body>
+</html>
+
+<!-- ********************* LØSNINGSFORSLAG ********************* -->
+<!-- ********************  Opgave 1 løsning ******************** -->
+<!-- *********************************************************** -->
+
+<!-- ********************  Opgave 2 løsning ******************** -->
+<!-- *********************************************************** -->
+
+<!-- ********************  Opgave 3 løsning ******************** -->
+<!-- *********************************************************** -->
+
+<!-- ********************  Opgave 4 løsning ******************** -->
+<!-- *********************************************************** -->
+
+<!-- ********************  Opgave 5 løsning ******************** -->
+<!-- *********************************************************** -->
+
+<!-- ********************  Opgave 6 løsning ******************** -->
+<!-- *********************************************************** -->
