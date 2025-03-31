@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms: Opgave 1-8</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div><h1>Forms øvelse 1-8</h1></div>
+      <nav>
+        <a href="#">Side 1</a>
+        <a href="#">Side 2</a>
+        <a href="#">Side 3</a>
+      </nav>
+    </header>
+    <main>
+      <section id="form-container">
+        <!-- opgave 1 -->
+        <form id="webform-1"></form>
+
+        <!-- opgave 2 -->
+        <form id="webform-2">
+          <div class="form-flex-container">
+            <div class="form-group">
+              <label for="f-name">Fornavn</label>
+              <input id="f-name" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="l-name">Efternavn</label>
+              <input id="l-name" type="text" />
+            </div>
+          </div>
+          <button id="submit_btn" type="submit">Send</button>
+        </form>
+
+        <!-- opgave 3 -->
+        <form id="webform-3">
+          <div class="form-flex-container">
+            <div class="form-group">
+              <label for="e-mail">Email</label>
+            </div>
+            <div class="form-group">
+              <label for="pass">Password</label>
+            </div>
+          </div>
+          <button id="submit_btn" type="submit">Send</button>
+        </form>
+
+        <!-- opgave 4 -->
+        <form id="webform-4">
+          <div class="form-group">
+            <label for="name">Navn</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="form-group">
+            <label for="e-mail">Email</label>
+            <input id="e-mail" name="e-mail" type="email" required />
+          </div>
+          <div class="form-group"></div>
+          <button id="submit_btn" type="submit">Send</button>
+        </form>
+
+        <!-- opgave 5 -->
+        <form id="webform-5"></form>
+
+        <!-- opgave 6 -->
+        <form id="webform-6">
+          <div class="form-group"></div>
+        </form>
+
+        <!-- opgave 7 -->
+        <form id="webform-7"></form>
+
+        <!-- opgave 8 -->
+        <form id="webform-8"></form>
+      </section>
+    </main>
+    <footer><p>Øvelse 1-8</p></footer>
+  </body>
+</html>
+
+<!-- *********************************** OPGAVER ************************************ -->
+<!-- ******************************************************************************** -->
+
+<!-- **********************************  Opgave 1  ********************************** -->
+<!-- ******************************************************************************** -->
+<!-- Indsæt 2 inputfelter til fornavn og efternavn samt en submitknap i formen. -->
+<!-- Der skal være tekst på knappen og der skal være label til de to inputfelter -->
+<!-- Hvert inputfelt skal ligge sammen med det tilhørende label i en div -->
+<!-- Giv div'erne en classe, fx form-group eller form-felt -->
+
+<!-- **********************************  Opgave 2  ********************************** -->
+<!-- ******************************************************************************** -->
+<!-- Her er html elementerne allerede lavet -->
+<!-- Tilføj attributten name til de to inputfelter og required til det ene  -->
+<!-- Resten af opgaven løses i css: brug display block og flex til at style formen -->
+<!-- få navnefelterne til at ligge ved siden af hinanden og knappen nedenunder -->
+<!-- få labels til at ligge over de tilhørende inputfelter -->
+<!-- brug margin og padding som ønsket, giv formen en baggrundsfarve og runde hjørner -->
+
+<!-- **********************************  Opgave 3  ********************************** -->
+<!-- ******************************************************************************** -->
+<!-- Her er form, struktur div'er og labels allerede lavet -->
+<!-- Du skal tilføje to input felter af typen hhv. email og password -->
+<!-- Tilføj attributterne id, name og type samt required i de to inputfelter  -->
+<!-- tilføj en placeholder text i begge felter -->
+<!-- Du kan style formen i css som du har lyst til -->
+
+<!-- **********************************  Opgave 4  ********************************** -->
+<!-- ******************************************************************************** -->
+<!-- Her er form, struktur div'er og to inputfelter allerede lavet -->
+<!-- Tilføj et textarea felt i den sidste form-group -->
+<!-- tilføj label og følgende attributter: id, name og required -->
+<!-- giv felterne en hjælpetekst i form af fx en p eller h4 i stedet for en placeholder -->
+<!-- Style feltet i css så det er 50% bredt 60px højt og kun kan resizes vertikalt -->
+<!-- Giv det også en baggrundsfarve ved focus (selector er textarea:focus) -->
+<!-- observer forskelle i forskellige browsere... -->
+
+<!-- **********************************  Opgave 5  ********************************** -->
+<!-- ******************************************************************************** -->
+<!-- Indsæt en drop-down-section (select / option) -->
+<!-- der skal være 3 options hvor du kan vælge mellem 3 kæledyr (vælg selv) -->
+<!-- Der skal også være en tom option med attributterne disabled og selected -->
+<!-- den tomme option fungerer som placeholdertekst -->
+<!-- Label skal ligge over din drop-down (noget css) -->
+<!-- giv din form en baggrundsfarve og giv også din selectbox baggrunds- og textfarve -->
+<!-- observer forskelle i forskellige browsere... -->
+
+<!-- **********************************  Opgave 6  ********************************** -->
+<!-- ******************************************************************************** -->
+<!--  Du skal nu lave en radiobutton section -->
+<!-- læg alle dine radiobuttons i 1 form-group -->
+<!-- Grupper hver radiobutton med tilhørende label i en div  -->
+<!-- Lav en serie radiobuttons og bed brugeren om at træffe et valg ml. 3-4 muligheder -->
+<!-- fx Hvad er du mest bange for: Zombier, Aliens eller Fugleinfluenza? -->
+<!-- brug en <p> som overskrift -->
+<!-- label skal placeres til højre for dine radiobuttons -->
+<!-- style din form med baggrunds- og textfarve samt en accent farve (accent-color) -->
+<!-- observer forskelle i forskellige browsere... -->
+
+<!-- ****************************** LØSNINGSFORSLAG ********************************* -->
+<!-- ******************************************************************************** -->
+
+<!-- *****************************  Opgave 1 løsning ******************************** -->
+<!-- ******************************************************************************** -->
+<!-- <form id="webform-1">
+  <div class="form-group">
+    <label for="f-name">Fornavn</label>
+    <input id="f-name" type="text" />
+  </div>
+  <div class="form-group">
+    <label for="l-name">Efternavn</label>
+    <input id="l-name" type="text" />
+  </div>
+  <button id="submit_btn" type="submit">Send</button>
+</form> -->
+
+<!-- *****************************  Opgave 2 løsning ******************************** -->
+<!-- ******************************************************************************** -->
+<!-- <form id="webform-2">
+  <div class="form-flex-container">
+    <div class="form-group">
+      <label for="f-name">Fornavn</label>
+      <input id="f-name" name="f-name" type="text" required />
+    </div>
+    <div class="form-group">
+      <label for="l-name">Efternavn</label>
+      <input id="l-name" name="l-name" type="text" />
+    </div>
+  </div>
+  <button id="submit_btn" type="submit">Send</button>
+</form> -->
+
+<!-- *****************************  Opgave 3 løsning ******************************** -->
+<!-- ******************************************************************************** -->
+<!-- <form id="webform-3">
+  <div class="form-flex-container">
+    <div class="form-group">
+      <label for="e-mail">Email</label>
+      <input id="e-mail" name="e-mail" type="email" placeholder="fx navn@kea.dk" required />
+    </div>
+    <div class="form-group">
+      <label for="pass">Password</label>
+      <input id="pass" name="pass" type="password" placeholder="minimum 6 tegn" required />
+    </div>
+  </div>
+  <button id="submit_btn" type="submit">Send</button>
+</form> -->
+
+<!-- *****************************  Opgave 4 løsning ******************************** -->
+<!-- ******************************************************************************** -->
+<!-- <form id="webform-4">
+  <div class="form-group">
+    <label for="name">Navn</label>
+    <p>Fornavn og efternavn</p>
+    <input id="name" name="name" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="e-mail">Email</label>
+    <p>Please enter valid e-mail</p>
+    <input id="e-mail" name="e-mail" type="email" required />
+  </div>
+  <div class="form-group">
+    <label for="besked">Besked</label>
+    <p>Beskriv med dine egne ord</p>
+    <textarea name="besked" id="besked"></textarea>
+  </div>
+  <button id="submit_btn" type="submit">Send</button>
+</form> -->
+
+<!-- *****************************  Opgave 5 løsning ******************************** -->
+<!-- ******************************************************************************** -->
+<!-- <form id="webform-5">
+  <div class="form-group">
+    <label for="pet">Hvilket dyr er mest cute?</label>
+    <select name="pet" id="pet" required>
+      <option value="" disabled selected>Vælg et kæledyr</option>
+      <option value="hund">En hundehvalp</option>
+      <option value="axolotl">En axolotl</option>
+      <option value="vandrende-pind">En vandrende pind</option>
+    </select>
+  </div>
+</form> -->
+
+<!-- *****************************  Opgave 6 løsning ******************************** -->
+<!-- ******************************************************************************** -->
+<!-- <form id="webform-6">
+  <div class="form-group">
+    <p>Hvad er du mest bange for?</p>
+    <div>
+      <input type="radio" id="scary-zombie" name="scary" value="1" required />
+      <label for="scary-zombie">Zombier?</label>
+    </div>
+    <div>
+      <input type="radio" id="scary-alien" name="scary" value="2-4" required />
+      <label for="scary-alien">Aliens?</label>
+    </div>
+    <div>
+      <input type="radio" id="scary-flu" name="scary" value="many" required />
+      <label for="scary-flu">Fugleinfluenza?</label>
+    </div>
+  </div>
+</form> -->
+
+<!-- *****************************  Opgave 7 løsning ******************************** -->
+<!-- ******************************************************************************** -->

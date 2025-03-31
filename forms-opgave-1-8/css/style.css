@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+header,
+main,
+footer {
+  padding: 1rem;
+}
+
+header,
+footer {
+  background-color: #000;
+  padding: 1rem;
+}
+h1,
+nav a,
+footer p {
+  color: aliceblue;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+/* ***************** SKRIV DIN CSS HERUNDER ***************** */
+/* **********************************************************  */
+
+/* ************************* Opgave 2 ***********************  */
+/* CSS gældende for :#webform-2 - (fornavn - efternavn) */
+
+/* **********************************************************  */
+
+/* ************************* Opgave 3 ***********************  */
+/* CSS gældende for :#webform-3 - (email - password) */
+
+/* **********************************************************  */
+
+/* ************************* Opgave 4 ***********************  */
+/* CSS gældende for :#webform-4 - (textarea) */
+
+/* **********************************************************  */
+
+/* ************************* Opgave 5 ***********************  */
+/* CSS gældende for :#webform-5 - (select - option) */
+
+/* **********************************************************  */
+
+/* ************************* Opgave 6 ***********************  */
+/* CSS gældende for :#webform-6 - (radiobuttons) */
+
+/* **********************************************************  */
+
+/* ************************* Opgave 7 ***********************  */
+/* CSS gældende for :#webform-7 - (checkboxes) */
+
+/* **********************************************************  */
+
+/* ************************* Opgave 8 ***********************  */
+/* CSS gældende for :#webform-8 - (range) */
+
+/* **********************************************************  */
+
+/* **********************************************************  */
+/* ********************* LØSNINGSFORSLAG ********************* */
+/* **********************************************************  */
+
+/* ************************* Opgave 2 ***********************  */
+/* **********************************************************  */
+
+/* .form-flex-container {
+  display: flex;
+  gap: 2rem;
+}
+#webform-2 label,
+#webform-2 input,
+#webform-2 button {
+  display: block;
+  margin: 0.3rem 0;
+}
+#webform-2 {
+  background-color: #feb5a4;
+  padding: 1rem;
+  border: 1px solid red;
+  border-radius: 10px;
+} */
+
+/* ************************* Opgave 3 ***********************  */
+/* **********************************************************  */
+
+/* .form-flex-container {
+  display: flex;
+  gap: 2rem;
+}
+#webform-3 label,
+#webform-3 input,
+#webform-3 button {
+  display: block;
+  margin: 0.3rem 0;
+}
+#webform-3 {
+  background-color: #dbe2f5;
+  padding: 1rem;
+  border: 1px solid #6f90eb;
+  border-radius: 10px;
+}  */
+
+/* ************************* Opgave 4 ***********************  */
+/* **********************************************************  */
+/* #webform-4 {
+  accent-color: red;
+}
+#webform-4 label,
+#webform-4 input,
+#webform-4 button {
+  display: block;
+  margin: 0.3rem 0;
+}
+textarea {
+  width: 50%;
+  height: 60px;
+  padding: 0.5rem; 
+  resize: vertical; 
+}
+textarea:focus {
+  background-color: rgb(255, 236, 239);
+}
+#webform-4 p {
+  font-size: 0.7rem;
+  margin: 0.2rem;
+}
+#webform-4 label {
+  margin: 1rem 0 0.4rem 0;
+} */
+
+/* ************************* Opgave 5 ***********************  */
+/* **********************************************************  */
+/* #webform-5 {
+  background-color: orange;
+  padding: 1rem;
+}
+#webform-5 select {
+  background-color: black;
+  color: orange;
+}
+#webform-5 label,
+#webform-5 select,
+#webform-5 button {
+  display: block;
+  margin: 0.3rem 0;
+} */
+
+/* ************************* Opgave 6 ***********************  */
+/* **********************************************************  */
+/* #webform-6 {
+  background-color: blueviolet;
+  padding: 2rem;
+  border-radius: 15px;
+  color: yellow;
+  accent-color: lime;
+} */
