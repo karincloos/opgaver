@@ -128,9 +128,18 @@ input:user-valid {
 } */
 
 /* *************************** Opgave 13 ************************* */
-/* input:user-invalid + span::before {
-  content: "indtast en gyldig emailadresse";
+input#email:user-invalid + span::before {
+  /* content: "indtast en gyldig emailadresse"; */
+  content: "⚠️ dette er ikke en gyldig e-mail";
   color: red;
   font-weight: 900;
   font-size: 0.7rem;
-} */
+}
+
+input#username:user-invalid + span::before {
+  /* content: "indtast en gyldig emailadresse"; */
+  content: "🧟‍♀️ forkert";
+  color: red;
+  font-weight: 900;
+  font-size: 0.7rem;
+}
